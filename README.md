@@ -25,4 +25,8 @@ async fn main() -> Result<(), tokio_websockets::Error> {
     ...
 }
 ```  
-Karena pada client side menggunakan protokol `tokio_websockets`, server dan client berjalan dengan normal walaupun menggunakan port yang berbeda. 
+Karena pada client side menggunakan protokol `tokio_websockets`, server dan client berjalan dengan normal walaupun menggunakan port yang berbeda.   
+
+**2.3. Small changes. Add some information to client**  
+![img_1.png](img_1.png)  
+Perubahan ini dilakukan agar server dapat menampilkan informasi tambahan.
